@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Telegram Web</title>
+      <link href="./telegram.css" type="text/css" rel="stylesheet"/>
+    <link rel="icon" type="image/gif" href="telegram.png" />
+    </head>
+    <body>
+    <img id="img1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/1024px-Solid_white.svg.png">
+    <img id="img2" src="5682A3.jpg">
+    <img id="img3" src="icon2.png">
+    <h1>Telegram</h1>
+    <form>
+      <input  type="submit" value="Next >">
+    </form>
+    <h3>Sign in</h3>
+    <p>
+      Please choose your country and enter your full<br> phone number.
+    </p>
+    <form>
+      <label class="countryLabel" for="country">Country</label>
+      <br>
+        <input id="country" name="Country" type="text" list="Countries">
+        <datalist id="Countries">
+         <option value="Kazakhstan"></option>
+         <option value="Russia"></option>
+         <option value="US"></option>
+        </datalist>
+    </form>
+    <form>
+      <label class="codeLabel" for="code">Code</label>
+      <br>
+      <input id="code" name="code" type="text" required>
+      <label  class="numberLabel" for="number">Phone Number</label>
+      <br>
+      <input id="number" name="Phone Number" type="text" required>
+    </form>
+    <h6>Welcome to the official Telegram web-client.</h6>
+    <h4>Learn more</h4>
+    </body>
+</html>
