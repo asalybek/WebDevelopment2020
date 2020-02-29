@@ -1,0 +1,18 @@
+a:hover{
+    text-decoration: none;
+    color:green;
+    background-color: white;
+}
+h2{
+    text-decoration: none;
+    margin-left: 25px;
+    border:8px solid #067655;
+    background-color:  #067655;
+    border-radius: 10px;
+    color:white;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: fit-content;
+    height: max-content;
+}
